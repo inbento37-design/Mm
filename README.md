@@ -113,7 +113,7 @@
   }
 </script>
     
-    downloadLink.href = "DOWNLOAD_URL;https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file"
+    downloadLink.href = DOWNLOAD_URL;"https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
 
     function showModal(){ modal.classList.remove('hidden'); }
 
