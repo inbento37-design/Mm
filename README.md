@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Acceso exclusivo</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    * { font-family: Arial, sans-serif; }
-  </style>
+  <style>* { font-family: Arial, sans-serif; }</style>
 </head>
 <body class="bg-gray-50 text-gray-900">
 
@@ -75,12 +73,13 @@
   </div>
 
   <script>
-    // Canal de YouTube
+    // Mantener el canal como pediste
     const CHANNEL_URL = "https://www.youtube.com/@jk-trick2625";
-    // Nuevo video para dar like
+    // Video que quieres que abran para dar like
     const VIDEO_URL   = "https://youtu.be/hrByMeaD9iY?si=4qssZZghQXWrfRRF";
-    // Enlace de descarga (cámbialo tú por un archivo legal/seguro en tu hosting)
-    const DOWNLOAD_URL = "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
+
+    // MARCADOR: reemplaza SOLO EN TU COPIA si el archivo es legal/seguro.
+    const DOWNLOAD_URL = "DOWNLOAD_URL_HERE";
 
     const modal = document.getElementById('subscribe-modal');
     const openGateBtn = document.getElementById('open-gate');
@@ -100,20 +99,12 @@
     const downloadArea = document.getElementById('download-area');
     const downloadLink = document.getElementById('download-link');
 
-
-  // PON TU ENLACE AQUÍ (solo si es legal y seguro)
-  const DOWNLOAD_URL = "DOWNLOAD_URL_HERE"; "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
-
-  // luego en la inicialización:
-  const downloadLink = document.getElementById('download-link');
-  if (DOWNLOAD_URL !== "DOWNLOAD_URL_HERE") {
-    downloadLink.href = DOWNLOAD_URL;"https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
-  } else {
-    downloadLink.href = "#"; "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
-  }
-</script>
-    
-    downloadLink.href = DOWNLOAD_URL;"https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
+    // Asigna el href del botón de descarga SOLO si has reemplazado DOWNLOAD_URL localmente
+    const DOWNLOAD_URL = "https://www.mediafire.com/file/j8kmkmd2jynmko6/97%+.7z/file";
+    } else {
+      downloadLink.href = "#";
+      downloadLink.title = "Sustituye DOWNLOAD_URL_HERE por tu enlace de descarga si es seguro";
+    }
 
     function showModal(){ modal.classList.remove('hidden'); }
 
@@ -165,6 +156,5 @@
       downloadArea.classList.remove('hidden');
     });
   </script>
-
 </body>
 </html>
