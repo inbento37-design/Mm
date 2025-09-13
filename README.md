@@ -80,7 +80,7 @@
     // Nuevo video para dar like
     const VIDEO_URL   = "https://youtu.be/hrByMeaD9iY?si=4qssZZghQXWrfRRF";
     // Enlace de descarga (cámbialo tú por un archivo legal/seguro en tu hosting)
-    const DOWNLOAD_URL = "https://tu-enlace-seguro.com/archivo.zip";
+    const DOWNLOAD_URL = "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
 
     const modal = document.getElementById('subscribe-modal');
     const openGateBtn = document.getElementById('open-gate');
@@ -100,7 +100,19 @@
     const downloadArea = document.getElementById('download-area');
     const downloadLink = document.getElementById('download-link');
 
-  
+
+  // PON TU ENLACE AQUÍ (solo si es legal y seguro)
+  const DOWNLOAD_URL = "DOWNLOAD_URL_HERE"; "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
+
+  // luego en la inicialización:
+  const downloadLink = document.getElementById('download-link');
+  if (DOWNLOAD_URL !== "DOWNLOAD_URL_HERE") {
+    downloadLink.href = DOWNLOAD_URL;"https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
+  } else {
+    downloadLink.href = "#"; "https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file";
+  }
+</script>
+    
     downloadLink.href = "DOWNLOAD_URL;https://www.mediafire.com/file/erym5g84yaz4ha6/AIMBOT+97%+CABEZA+🥇.7z/file"
 
     function showModal(){ modal.classList.remove('hidden'); }
